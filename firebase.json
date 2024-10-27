@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "backend/build",
+    "rewrites": [
+      {
+        "source": "/chatbot",
+        "function": "api"
+      }
+    ]
+  },
+  "functions": {
+    "source": "backend"
+  }
+}
